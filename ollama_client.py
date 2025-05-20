@@ -3,7 +3,7 @@ import requests
 def query_ollama(prompt, model):
     try:
         response = requests.post(
-            url = 'http://localhost:11434/api/generate',
+            url = 'https://revolution-lambda-titten-subscribe.trycloudflare.com/api/generate',
             json = {
                 'model' : model,
                 'prompt' : prompt,
